@@ -1,0 +1,594 @@
+{
+    "payment_method": [
+        "Cartão de crédito",
+        "Cartão de débito",
+        "PIX",
+        "Dinheiro"
+    ],
+    "category": [
+        {
+            "name": "Lanches",
+            "products": [
+                {
+                    "name": "Hamburguer Clássico",
+                    "ingredients": [
+                        "Pão de hamburguer",
+                        "Carne bovina",
+                        "Queijo cheddar",
+                        "Alface",
+                        "Tomate",
+                        "Cebola roxa",
+                        "Molho especial"
+                    ],
+                    "price": 15.00,
+                    "image_url": "https://i.pinimg.com/564x/dd/bc/09/ddbc095a518513fec47470648975143e.jpg"
+                },
+                {
+                    "name": "Sanduíche de Frango Grelhado",
+                    "ingredients": [
+                        "Pão francês",
+                        "Frango grelhado",
+                        "Queijo prato",
+                        "Alface",
+                        "Tomate",
+                        "Maionese",
+                        "Mostarda"
+                    ],
+                    "price": 12.50,
+                    "image_url": "https://i.pinimg.com/564x/d1/78/f2/d178f2f3ed20027a02b63c2faeb161a0.jpg"
+                },
+                {
+                    "name": "Wrap de Falafel",
+                    "ingredients": [
+                        "Wrap",
+                        "Falafel",
+                        "Alface",
+                        "Tomate",
+                        "Cebola roxa",
+                        "Molho de tahini"
+                    ],
+                    "price": 10.00,
+                    "image_url": "https://i.pinimg.com/564x/f3/ef/13/f3ef1305a8b7bd8d25afa978a3b8f62c.jpg"
+                },
+                {
+                    "name": "Hot Dog Tradicional",
+                    "ingredients": [
+                        "Pão de hot dog",
+                        "Salsicha",
+                        "Molho de tomate",
+                        "Mostarda",
+                        "Ketchup",
+                        "Batata palha"
+                    ],
+                    "price": 8.50,
+                    "image_url": "https://i.pinimg.com/564x/d6/66/ae/d666ae69e6665e5c95d897cb219bb152.jpg"
+                },
+                {
+                    "name": "Sanduíche Vegetariano",
+                    "ingredients": [
+                        "Pão de forma",
+                        "Queijo mussarela",
+                        "Tomate",
+                        "Alface",
+                        "Cenoura ralada",
+                        "Maionese",
+                        "Mostarda"
+                    ],
+                    "price": 9.00,
+                    "image_url": "https://i.pinimg.com/564x/74/c5/09/74c50988b9fa693c948abb654bae018c.jpg"
+                },
+                {
+                    "name": "Taco de Carne",
+                    "ingredients": [
+                        "Taco shell",
+                        "Carne moída",
+                        "Alface",
+                        "Tomate",
+                        "Queijo cheddar",
+                        "Molho de tomate"
+                    ],
+                    "price": 6.50,
+                    "image_url": "https://i.pinimg.com/564x/a9/8b/0f/a98b0fdc4cf4b0bcfd84f1ca58d450b0.jpg"
+                },
+                {
+                    "name": "Sanduíche de Peito de Peru",
+                    "ingredients": [
+                        "Pão francês",
+                        "Peito de peru defumado",
+                        "Queijo prato",
+                        "Alface",
+                        "Tomate",
+                        "Maionese",
+                        "Mostarda"
+                    ],
+                    "price": 12.50,
+                    "image_url": "https://i.pinimg.com/564x/fe/f3/0f/fef30fd4a856a6212f420122291ed585.jpg"
+                },
+                {
+                    "name": "Pão de Queijo Recheado",
+                    "ingredients": [
+                        "Pão de queijo",
+                        "Queijo mussarela",
+                        "Presunto",
+                        "Requeijão cremoso"
+                    ],
+                    "price": 5.50,
+                    "image_url": "https://i.pinimg.com/564x/a7/75/45/a77545fb06a66f1689b446cc2dcd29b3.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Pizzas",
+            "sizes": [
+                {
+                    "name": "Pequena",
+                    "price": 35.00
+                },
+                {
+                    "name": "Média",
+                    "price": 45.00
+                },
+                {
+                    "name": "Grande",
+                    "price": 53.00
+                },
+                {
+                    "name": "Tamanho familia",
+                    "price": 65.00
+                }
+            ],
+            "products": [
+                {
+                    "name": "Pizza Margherita",
+                    "image_url": "https://i.pinimg.com/564x/2c/f9/8b/2cf98bf90e479b81155fe1afe1ef40d1.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Mussarela fresca",
+                        "Manjericão",
+                        "Azeite de oliva"
+                    ]
+                },
+                {
+                    "name": "Pizza Pepperoni",
+                    "image_url": "https://i.pinimg.com/564x/a1/35/64/a135643a361418235c8df04b79740745.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Queijo mussarela",
+                        "Pepperoni"
+                    ]
+                },
+                {
+                    "name": "Pizza Calabresa",
+                    "image_url": "https://i.pinimg.com/564x/4c/94/58/4c9458488e07b4caa1d50287383fef17.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Queijo mussarela",
+                        "Calabresa",
+                        "Cebola"
+                    ]
+                },
+                {
+                    "name": "Pizza Quatro Queijos",
+                    "image_url": "https://i.pinimg.com/564x/b8/56/da/b856da36c0cff61470ddbf15c3fdf639.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Queijo mussarela",
+                        "Queijo gorgonzola",
+                        "Queijo parmesão",
+                        "Queijo provolone"
+                    ]
+                },
+                {
+                    "name": "Pizza Portuguesa",
+                    "image_url": "https://i.pinimg.com/564x/1c/00/85/1c00859d82f8afd3477c7dda9b416270.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Queijo mussarela",
+                        "Presunto",
+                        "Ovos",
+                        "Cebola",
+                        "Azeitonas",
+                        "Tomate",
+                        "Pimentão"
+                    ]
+                },
+                {
+                    "name": "Pizza Frango com Catupiry",
+                    "image_url": "https://i.pinimg.com/564x/67/c8/87/67c88711cf25c71f392aa8d49f7d4b52.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Queijo mussarela",
+                        "Frango desfiado",
+                        "Catupiry",
+                        "Cebola"
+                    ]
+                },
+                {
+                    "name": "Pizza Vegetariana",
+                    "image_url": "https://i.pinimg.com/564x/19/71/0b/19710b81930012327954e3591737be46.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Queijo mussarela",
+                        "Berinjela",
+                        "Abobrinha",
+                        "Cebola",
+                        "Pimentão",
+                        "Tomate"
+                    ]
+                },
+                {
+                    "name": "Pizza Margherita com Parma",
+                    "image_url": "https://i.pinimg.com/564x/16/4c/b7/164cb770229107b94c60c5850bcba077.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Mussarela fresca",
+                        "Presunto parma",
+                        "Manjericão",
+                        "Azeite de oliva"
+                    ]
+                },
+                {
+                    "name": "Pizza Napolitana",
+                    "image_url": "https://i.pinimg.com/564x/25/5a/6f/255a6f8daf6b3b340e1abfad825bb921.jpg",
+                    "ingredients": [
+                        "Molho de tomate",
+                        "Queijo mussarela",
+                        "Aliche",
+                        "Alcaparras",
+                        "Cebola",
+                        "Orégano"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bebidas",
+            "products": [
+                {
+                    "name": "Café Expresso",
+                    "image_url": "https://i.pinimg.com/564x/34/e8/bd/34e8bdc0008bee662c98f16178dc4459.jpg",
+                    "price": 5.00,
+                    "ingredients": [
+                        "Café moído"
+                    ]
+                },
+                {
+                    "name": "Cappuccino",
+                    "image_url": "https://i.pinimg.com/564x/d6/7c/47/d67c477af52309cf96194492908b78b3.jpg",
+                    "price": 8.00,
+                    "ingredients": [
+                        "Café expresso",
+                        "Leite vaporizado",
+                        "Espuma de leite",
+                        "Canela em pó"
+                    ]
+                },
+                {
+                    "name": "Mocha",
+                    "image_url": "https://i.pinimg.com/564x/3d/2d/a4/3d2da4fd7e2bd42ea0076d3e4b7da79c.jpg",
+                    "price": 10.00,
+                    "ingredients": [
+                        "Café expresso",
+                        "Leite vaporizado",
+                        "Chocolate em pó",
+                        "Chantilly"
+                    ]
+                },
+                {
+                    "name": "Chá Verde",
+                    "image_url": "https://i.pinimg.com/564x/4a/01/de/4a01de9f9f1f9527df608287ed9401be.jpg",
+                    "price": 6.00,
+                    "ingredients": [
+                        "Folhas de chá verde",
+                        "Água quente",
+                        "Mel",
+                        "Limão"
+                    ]
+                },
+                {
+                    "name": "Suco de Laranja",
+                    "image_url": "https://i.pinimg.com/564x/62/94/7e/62947e2dd38e1d0ca3f43911bcb8f6c9.jpg",
+                    "price": 7.00,
+                    "ingredients": [
+                        "Laranjas frescas",
+                        "Água gelada",
+                        "Açúcar a gosto"
+                    ]
+                },
+                {
+                    "name": "Smoothie de Morango",
+                    "image_url": "https://i.pinimg.com/736x/c9/83/46/c9834634b3a86cdf4cf0a4dc5a93b123.jpg",
+                    "price": 12.00,
+                    "ingredients": [
+                        "Morangos frescos",
+                        "Iogurte natural",
+                        "Leite gelado",
+                        "Açúcar a gosto"
+                    ]
+                },
+                {
+                    "name": "Chocolate Quente",
+                    "image_url": "https://i.pinimg.com/564x/e8/88/13/e88813d520e442e415a0a7411fd96ca6.jpg",
+                    "price": 9.00,
+                    "ingredients": [
+                        "Chocolate em barra",
+                        "Leite vaporizado",
+                        "Chantilly",
+                        "Marshmallow"
+                    ]
+                },
+                {
+                    "name": "Água com Gás",
+                    "image_url": "https://i.pinimg.com/564x/15/6d/4c/156d4cff34a146d053861fc2285503e3.jpg",
+                    "price": 4.00,
+                    "ingredients": [
+                        "Água com gás"
+                    ]
+                },
+                {
+                    "name": "Coca cola",
+                    "image_url": "https://i.pinimg.com/564x/30/05/43/3005433c9b11529efb3915747a00f4c5.jpg",
+                    "price": 6.00,
+                    "ingredients": [
+                        "Água gaseificada",
+                        "Açúcar",
+                        "Extrato de noz de cola",
+                        "Caramelo"
+                    ]
+                },
+                {
+                    "name": "Chá Gelado",
+                    "image_url": "https://i.pinimg.com/564x/2a/f3/92/2af39241fbbe0094a55198bea73f3aa3.jpg",
+                    "price": 7.00,
+                    "ingredients": [
+                        "Folhas de chá preto",
+                        "Água quente",
+                        "Açúcar",
+                        "Limão",
+                        "Gelo"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Porções",
+            "products": [
+                {
+                    "name": "Batatas Fritas",
+                    "image_url": "https://i.pinimg.com/736x/68/01/ce/6801cec291fb8043c40c5b91b4b361e0.jpg",
+                    "price": 12.00,
+                    "ingredients": [
+                        "Batatas",
+                        "Óleo vegetal",
+                        "Sal"
+                    ]
+                },
+                {
+                    "name": "Cebola empanada",
+                    "image_url": "https://i.pinimg.com/564x/92/31/23/9231231fdc74d4648717421b4af4a786.jpg",
+                    "price": 15.00,
+                    "ingredients": [
+                        "Cebolas",
+                        "Farinha de trigo",
+                        "Ovo",
+                        "Pão ralado",
+                        "Sal"
+                    ]
+                },
+                {
+                    "name": "Asinhas de Frango",
+                    "image_url": "https://i.pinimg.com/564x/42/84/0f/42840fca858599cb10d3b9d93ff4c40a.jpg",
+                    "price": 20.00,
+                    "ingredients": [
+                        "Asas de frango",
+                        "Molho picante",
+                        "Farinha de trigo",
+                        "Óleo vegetal",
+                        "Sal"
+                    ]
+                },
+                {
+                    "name": "Nachos com Queijo",
+                    "image_url": "https://i.pinimg.com/564x/9e/76/79/9e7679fa55a447d3f165b78fa22dd0e8.jpg",
+                    "price": 18.00,
+                    "ingredients": [
+                        "Nachos",
+                        "Queijo cheddar ralado",
+                        "Pimenta jalapeño",
+                        "Tomate",
+                        "Cebola"
+                    ]
+                },
+                {
+                    "name": "Isca de Peixe",
+                    "image_url": "https://i.pinimg.com/564x/7d/31/59/7d3159856258deea3889c3efd79e50b0.jpg",
+                    "price": 22.00,
+                    "ingredients": [
+                        "Peixe branco",
+                        "Farinha de trigo",
+                        "Ovo",
+                        "Pão ralado",
+                        "Sal"
+                    ]
+                },
+                {
+                    "name": "Bruschetta",
+                    "image_url": "https://i.pinimg.com/564x/50/68/bd/5068bd85ccce0d79f4e99bfeaf209680.jpg",
+                    "price": 16.00,
+                    "ingredients": [
+                        "Pão italiano",
+                        "Tomate",
+                        "Manjericão",
+                        "Alho",
+                        "Azeite"
+                    ]
+                },
+                {
+                    "name": "Pastel de Queijo",
+                    "image_url": "https://i.pinimg.com/564x/44/ff/d0/44ffd063b1411c9bfcbac8d773313b2d.jpg",
+                    "price": 14.00,
+                    "ingredients": [
+                        "Massa de pastel",
+                        "Queijo muçarela",
+                        "Óleo vegetal"
+                    ]
+                },
+                {
+                    "name": "Bolinhos de Bacalhau",
+                    "image_url": "https://i.pinimg.com/564x/ae/de/36/aede36239215c43f8058f8a7edcbd018.jpg",
+                    "price": 24.00,
+                    "ingredients": [
+                        "Bacalhau dessalgado",
+                        "Batatas",
+                        "Cebola",
+                        "Ovo",
+                        "Farinha de trigo"
+                    ]
+                },
+                {
+                    "name": "Linguiça na Brasa",
+                    "image_url": "https://i.pinimg.com/564x/3e/5e/84/3e5e842b96e6e9a4cacce97d3d407174.jpg",
+                    "price": 19.00,
+                    "ingredients": [
+                        "Linguiça fresca",
+                        "Carvão",
+                        "Sal grosso"
+                    ]
+                },
+                {
+                    "name": "Croquetes de Carne",
+                    "image_url": "https://i.pinimg.com/564x/ea/df/7d/eadf7da57116c8512dc6e8bf8f12b2a9.jpg",
+                    "price": 17.00,
+                    "ingredients": [
+                        "Carne moída",
+                        "Farinha de trigo",
+                        "Leite",
+                        "Ovo",
+                        "Pão ralado"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Doces",
+            "products": [
+                {
+                    "name": "Brigadeiro",
+                    "image_url": "https://i.pinimg.com/564x/27/4f/e2/274fe25e4b042472189439e85b8054a4.jpg",
+                    "price": 3.50,
+                    "ingredients": [
+                        "Leite condensado",
+                        "Manteiga",
+                        "Chocolate em pó"
+                    ]
+                },
+                {
+                    "name": "Bolo de Cenoura",
+                    "image_url": "https://i.pinimg.com/564x/b7/7e/29/b77e29eb328e70fc601f916e7ff03979.jpg",
+                    "price": 25.00,
+                    "ingredients": [
+                        "Cenoura",
+                        "Açúcar",
+                        "Óleo vegetal",
+                        "Farinha de trigo",
+                        "Ovo"
+                    ]
+                },
+                {
+                    "name": "Torta de Limão",
+                    "image_url": "https://i.pinimg.com/564x/47/58/15/475815714ff311eb5986e5d283691c0a.jpg",
+                    "price": 30.00,
+                    "ingredients": [
+                        "Leite condensado",
+                        "Creme de leite",
+                        "Suco de limão",
+                        "Bolacha Maria",
+                        "Manteiga"
+                    ]
+                },
+                {
+                    "name": "Pudim de Leite",
+                    "image_url": "https://i.pinimg.com/564x/e2/1b/0d/e21b0da8d1592f7ebeb8d7efce7f4df7.jpg",
+                    "price": 20.00,
+                    "ingredients": [
+                        "Leite",
+                        "Leite condensado",
+                        "Ovo",
+                        "Açúcar"
+                    ]
+                },
+                {
+                    "name": "Cupcake de Baunilha",
+                    "image_url": "https://i.pinimg.com/564x/dc/3f/41/dc3f4128de596d223c269fe4e825fce4.jpg",
+                    "price": 5.00,
+                    "ingredients": [
+                        "Farinha de trigo",
+                        "Açúcar",
+                        "Ovo",
+                        "Leite",
+                        "Fermento em pó"
+                    ]
+                },
+                {
+                    "name": "Mousse de Maracujá",
+                    "image_url": "https://i.pinimg.com/564x/88/39/f1/8839f1101f4136f0c83a5eea6c7a8478.jpg",
+                    "price": 8.00,
+                    "ingredients": [
+                        "Leite condensado",
+                        "Creme de leite",
+                        "Suco de maracujá",
+                        "Gelatina incolor"
+                    ]
+                },
+                {
+                    "name": "Cheesecake",
+                    "image_url": "https://i.pinimg.com/564x/9e/be/2f/9ebe2f1d62ce19cfd9602b9842c9a547.jpg",
+                    "price": 35.00,
+                    "ingredients": [
+                        "Cream cheese",
+                        "Biscoito maisena",
+                        "Manteiga",
+                        "Açúcar",
+                        "Ovo"
+                    ]
+                },
+                {
+                    "name": "Pavê de Chocolate",
+                    "image_url": "https://i.pinimg.com/564x/79/39/89/79398990d850f980e3041f531944570a.jpg",
+                    "price": 28.00,
+                    "ingredients": [
+                        "Bolacha maisena",
+                        "Leite condensado",
+                        "Leite",
+                        "Chocolate em pó",
+                        "Creme de leite"
+                    ]
+                },
+                {
+                    "name": "Tiramisu",
+                    "image_url": "https://i.pinimg.com/564x/ee/0d/a9/ee0da983a50e6893f1389dcb907b7948.jpg",
+                    "price": 40.00,
+                    "ingredients": [
+                        "Queijo mascarpone",
+                        "Biscoito champagne",
+                        "Café",
+                        "Açúcar",
+                        "Ovo"
+                    ]
+                },
+                {
+                    "name": "Brownie",
+                    "image_url": "https://i.pinimg.com/564x/9b/6c/76/9b6c76e497dbd3c086711b8b43f376d5.jpg",
+                    "price": 15.00,
+                    "ingredients": [
+                        "Chocolate meio amargo",
+                        "Manteiga",
+                        "Açúcar",
+                        "Ovo",
+                        "Farinha de trigo"
+                    ]
+                }
+            ]
+        }
+    ]
+}

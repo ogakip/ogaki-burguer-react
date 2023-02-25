@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "state": "Rio de Janeiro",
+                "city": "Quissamã",
+                "size": 70,
+                "phone": "(xx)x-xxxx-xxxx",
+                "unit": 1
+            },
+            "geometry": {
+                "coordinates": [
+                    -41.460395535478284,
+                    -22.103291188747733
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "state": "Rio de Janeiro",
+                "city": "Dores de Macabu",
+                "size": 60,
+                "phone": "(xx)x-xxxx-xxxx",
+                "unit": 2
+            },
+            "geometry": {
+                "coordinates": [
+                    -41.507997321494486,
+                    -21.98616425991341
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "state": "Rio de Janeiro",
+                "city": "Pau Grande",
+                "size": 50,
+                "phone": "(xx)x-xxxx-xxxx",
+                "unit": 3
+            },
+            "geometry": {
+                "coordinates": [
+                    -41.18487855594688,
+                    -22.07235951001259
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "state": "Rio de Janeiro",
+                "city": "Campos dos Goytacazes",
+                "size": 70,
+                "phone": "(xx)x-xxxx-xxxx",
+                "unit": 4
+            },
+            "geometry": {
+                "coordinates": [
+                    -41.30947894763736,
+                    -21.771360421268042
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "state": "Rio de Janeiro",
+                "city": "Campos dos Goytacazes",
+                "size": 70,
+                "phone": "(xx)x-xxxx-xxxx",
+                "unit": 5
+            },
+            "geometry": {
+                "coordinates": [
+                    -41.34590814749669,
+                    -21.74809792235628
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "state": "Rio de Janeiro",
+                "city": "Campos dos Goytacazes",
+                "size": 70,
+                "phone": "(xx)x-xxxx-xxxx",
+                "unit": 6
+            },
+            "geometry": {
+                "coordinates": [
+                    -41.3119216118948,
+                    -21.723858411665177
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
