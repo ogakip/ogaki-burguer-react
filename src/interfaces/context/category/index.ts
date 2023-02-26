@@ -1,4 +1,5 @@
 export interface ProductProps {
+    id: number,
     name: string,
     price?: number,
     image_url: string,
@@ -11,6 +12,7 @@ export interface PizzaSizeProps {
 }
 
 export interface CategoryProps {
+    id: number,
     name: string,
     products: ProductProps[],
     size?: PizzaSizeProps[]
